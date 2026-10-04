@@ -24,7 +24,5 @@ MS1A_conex04_c.doc / MS1A_conex04_c_sol.doc
 銀行持有32間屋及12間酒店。抵押取得地價50%，贖回付抵押金加10%。破產予另一玩家時，建築物按半價折現予債權人，抵押地產轉移免即時利息。
 六人各完成一回合才計一輪，雙骰獎勵仍屬同一回合。回合上限按總資產結算：現金、未抵押地產原價、抵押地產半價及建築原成本。相同資產並列，破產者排末。免費泊車沒有獎金。
 
-開發與測試
-純HTML/CSS/JavaScript，沒有外部CDN或伺服器資料庫。
-執行 node tests/engine.test.cjs 可重跑遊戲邏輯測試。
-修改 template.html、dist/style.css、dist/questions.js、dist/game.js、dist/app.js 後，執行 node bundle.cjs 重建單檔 dist/index.html。
+程式碼
+遊戲的HTML、CSS、JavaScript及題庫已整合在 index.html，可直接以瀏覽器開啟或編輯。
